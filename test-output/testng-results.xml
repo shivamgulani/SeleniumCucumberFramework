@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Test Report" duration-ms="790" started-at="2020-12-02T18:43:37 IST" finished-at="2020-12-02T18:43:38 IST">
+    <groups>
+    </groups>
+    <test name="Automation Test Report" duration-ms="790" started-at="2020-12-02T18:43:37 IST" finished-at="2020-12-02T18:43:38 IST">
+      <class name="com.testautomation.TestRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.testautomation.TestRunner.TestRunner@56673b2c]" name="setUpClass" is-config="true" duration-ms="167" started-at="2020-12-02T18:43:37 IST" finished-at="2020-12-02T18:43:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testautomation.TestRunner.TestRunner@56673b2c]" name="feature" duration-ms="372" started-at="2020-12-02T18:43:37 IST" data-provider="features" finished-at="2020-12-02T18:43:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["a few cukes"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["1"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testautomation.TestRunner.TestRunner@56673b2c]" name="feature" duration-ms="3" started-at="2020-12-02T18:43:38 IST" data-provider="features" finished-at="2020-12-02T18:43:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["add two numbers"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["1"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.testautomation.TestRunner.TestRunner@56673b2c]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2020-12-02T18:43:38 IST" finished-at="2020-12-02T18:43:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.testautomation.TestRunner.TestRunner -->
+    </test> <!-- Automation Test Report -->
+  </suite> <!-- Automation Test Report -->
+</testng-results>
